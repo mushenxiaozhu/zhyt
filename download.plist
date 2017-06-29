@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   download.plist
+   HBTaxService
+
+   Created by 赫世杰 on 2017/6/29.
+   Copyright (c) 2017年 servyou. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <dict>
+            <key>items</key>
+            <array>
+                <dict>
+                    <key>assets</key>
+                    <array>
+                        <dict>
+                            <key>kind</key>
+                            <string>software-package</string>
+                            <key>url</key>
+                            <string>https://git.oschina.net/gfsy/zhyt/blob/b5bde95e3f1db0e4be43caa5889fd54c39b1f83f/HBTaxService.ipa</string>
+                        </dict>
+                        <dict>
+                            <key>kind</key>
+                            <string>full-size-image</string>
+                            <key>needs-shine</key>
+                            <true/>
+                            <key>url</key>
+                            <string>https://git.oschina.net/gfsy/zhyt/blob/master/Icon.png</string>
+                        </dict>
+                        <dict>
+                            <key>kind</key>
+                            <string>display-image</string>
+                            <key>needs-shine</key>
+                            <true/>
+                            <key>url</key>
+                            <string>https://git.oschina.net/gfsy/zhyt/blob/master/Icon-60@3x.png</string>
+                        </dict>
+                    </array>
+                    <key>metadata</key>
+                    <dict>
+                        <key>bundle-identifier</key>
+                        <string>com.servyou.XTZS</string>
+                        <key>bundle-version</key>
+                        <string>2.0.1</string>
+                        <key>kind</key>  
+                        <string>software</string>  
+                        <key>title</key>  
+                        <string>智慧云厅</string>
+                    </dict>  
+                </dict>  
+            </array>  
+        </dict>
+    </dict>
+</plist>

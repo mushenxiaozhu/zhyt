@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   download.plist
-   HBTaxService
-
-   Created by 赫世杰 on 2017/6/29.
-   Copyright (c) 2017年 servyou. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <dict>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>assets</key>
-                    <array>
-                        <dict>
-                            <key>kind</key>
-                            <string>software-package</string>
-                            <key>url</key>
-                            <string>https://github.com/mushenxiaozhu/zhyt/raw/master/HBTaxService.ipa</string>
-                        </dict>
-                        <dict>
-                            <key>kind</key>
-                            <string>full-size-image</string>
-                            <key>needs-shine</key>
-                            <true/>
-                            <key>url</key>
-                            <string>https://raw.githubusercontent.com/mushenxiaozhu/zhyt/master/Icon.png</string>
-                        </dict>
-                        <dict>
-                            <key>kind</key>
-                            <string>display-image</string>
-                            <key>needs-shine</key>
-                            <true/>
-                            <key>url</key>
-                            <string>https://raw.githubusercontent.com/mushenxiaozhu/zhyt/master/Icon-60%403x.png</string>
-                        </dict>
-                    </array>
-                    <key>metadata</key>
-                    <dict>
-                        <key>bundle-identifier</key>
-                        <string>com.servyou.XTZS</string>
-                        <key>bundle-version</key>
-                        <string>2.0.1</string>
-                        <key>kind</key>  
-                        <string>software</string>  
-                        <key>title</key>  
-                        <string>智慧云厅</string>
-                    </dict>  
-                </dict>  
-            </array>  
-        </dict>
-    </dict>
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://www.shuiwu.cn/DownloadFile/HBTaxService.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://www.shuiwu.cn/DownloadFile/Icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://www.shuiwu.cn/DownloadFile/Icon-60@3x.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.servyou.XTZS</string>
+				<key>bundle-version</key>
+				<string>2.0.1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>智慧云厅</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
 </plist>

@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://www.shuiwu.cn/DownloadFile/HBTaxService.ipa</string>
+					<string>https://github.com/mushenxiaozhu/zhyt/raw/master/HBTaxService.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>

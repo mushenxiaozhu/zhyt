@@ -80,7 +80,7 @@
 <body>
 <div class="top">
     <img src="logo.png" alt=""/>
-    <p class="fs12">智慧云厅</p>
+    <p class="fs12">智慧云厅(河北测试)</p>
     <p class="fs07">云思维 , 云传递</p>
     <p class="fs07">版本: 1.0.1&nbsp;&nbsp;&nbsp;大小: 2.5M</p>
     <!--<p class="fs08">1.0.0</p>-->
@@ -139,13 +139,14 @@
         }
 
         function download() {
-            var devType = deviceType();
-            addLog(devType);
-            if (devType == 'ios') {
-                window.location = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/mushenxiaozhu/zhyt/master/download.plist";
-            } else {
-                window.location = "http://download.servyou.com.cn/uploads/hb/HB_ZHYT_RELEASE.apk";
-            }
+            window.location = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/mushenxiaozhu/zhyt/master/HBTest/download.plist";
+            // var devType = deviceType();
+            // addLog(devType);
+            // if (devType == 'ios') {
+            //     window.location = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/mushenxiaozhu/zhyt/master/download.plist";
+            // } else {
+            //     window.location = "http://download.servyou.com.cn/uploads/hb/HB_ZHYT_RELEASE.apk";
+            // }
 
         }
 
